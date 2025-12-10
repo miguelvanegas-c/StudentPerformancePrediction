@@ -16,6 +16,7 @@ Este proyecto aplica técnicas de aprendizaje automático para predecir el rendi
 ## 📂 Estructura del Repositorio
 
 PROYECTOPTIA/
+
 ├── data/ # Conjuntos de datos originales
 
 ├── models/ # Modelo entrenado (Random Forest)

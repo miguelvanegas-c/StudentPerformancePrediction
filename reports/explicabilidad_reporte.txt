@@ -1,0 +1,66 @@
+================================================================================
+REPORTE DE EXPLICABILIDAD DEL MODELO
+================================================================================
+
+ESTADISTICAS GENERALES:
+  - Número de muestras analizadas: 1044
+  - Número de features: 58
+
+TOP 10 FEATURES POR IMPORTANCIA SHAP (Mean Absolute):
+   1. Feature_29                     - SHAP: 0.128719
+   2. Feature_28                     - SHAP: 0.128719
+   3. Feature_26                     - SHAP: 0.084432
+   4. Feature_27                     - SHAP: 0.084432
+   5. Feature_11                     - SHAP: 0.026702
+   6. Feature_10                     - SHAP: 0.026702
+   9. Feature_24                     - SHAP: 0.008894
+  10. Feature_25                     - SHAP: 0.008894
+
+TOP 10 FEATURES POR IMPORTANCIA DEL MODELO:
+   1. Feature_14                     - Importancia: 0.332703
+   2. Feature_13                     - Importancia: 0.217912
+   3. Feature_5                      - Importancia: 0.053583
+   4. Feature_12                     - Importancia: 0.031741
+   5. Feature_52                     - Importancia: 0.020003
+   6. Feature_0                      - Importancia: 0.016839
+   7. Feature_8                      - Importancia: 0.015488
+   8. Feature_10                     - Importancia: 0.014966
+   9. Feature_2                      - Importancia: 0.014313
+  10. Feature_1                      - Importancia: 0.014205
+
+CORRELACION ENTRE SHAP E IMPORTANCIA DEL MODELO:
+  Correlación de Pearson: -0.0682
+
+ESTADISTICAS POR FEATURE:
+
+  Feature_29:
+    - Media SHAP: -0.000000
+    - Desv. Est. SHAP: 0.001600
+    - Min SHAP: -0.019393
+    - Max SHAP: 0.019393
+
+  Feature_28:
+    - Media SHAP: 0.000000
+    - Desv. Est. SHAP: 0.001791
+    - Min SHAP: -0.013063
+    - Max SHAP: 0.013063
+
+  Feature_26:
+    - Media SHAP: -0.000000
+    - Desv. Est. SHAP: 0.001240
+    - Min SHAP: -0.011780
+    - Max SHAP: 0.011780
+
+  Feature_27:
+    - Media SHAP: 0.000000
+    - Desv. Est. SHAP: 0.002116
+    - Min SHAP: -0.011479
+    - Max SHAP: 0.011479
+
+  Feature_11:
+    - Media SHAP: 0.000000
+    - Desv. Est. SHAP: 0.003162
+    - Min SHAP: -0.023778
+    - Max SHAP: 0.023778
+
+================================================================================

@@ -17,16 +17,26 @@ Este proyecto aplica técnicas de aprendizaje automático para predecir el rendi
 
 PROYECTOPTIA/
 ├── data/ # Conjuntos de datos originales
+
 ├── models/ # Modelo entrenado (Random Forest)
-├── reports/ # Informes de métricas y explicabilidad │
-├──images/ # Visualizaciones SHAP y Feature Importance
+
+├── reports/ # Informes de métricas y explicabilidad 
+
+│├──images/ # Visualizaciones SHAP y Feature Importance
 ├── results/ # Predicciones generadas
+
 ├── src/ # Código fuente del pipeline ML
+
 │ ├── load_data.py
+
 │ ├── preprocess.py
+
 │ ├── train_model.py
+
 │ ├── evaluate_model.py
+
 │ ├── explain_model.py
+
 │ └── predict.py ├── venv/ # Entorno virtual (ignorado en Git)
 
 ---

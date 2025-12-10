@@ -73,7 +73,6 @@ Se sigue el enfoque **CRISP-DM**:
 ## 🛠️ Herramientas Utilizadas
 
 - **Lenguaje:** Python
-- **Entornos:** Jupyter Notebook / Google Colab
 - **Librerías:** pandas, NumPy, scikit-learn, matplotlib, seaborn, SHAP
 
 ---
